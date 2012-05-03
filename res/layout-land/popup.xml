@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.handlerexploit.launcher_reloaded.AnimatedDrawer
+<com.android.launcherex.AnimatedDrawer
 		xmlns:android="http://schemas.android.com/apk/res/android"
-    	xmlns:launcher="http://schemas.android.com/apk/res/com.handlerexploit.launcher_reloaded"
+    	xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcherex"
         			android:id="@+id/relativegridview"
     				android:orientation="horizontal"
     				android:layout_width="fill_parent"
@@ -29,4 +29,4 @@
     				android:layout_alignParentRight="true"
     				android:layout_centerInParent="true"/>
     				
-</com.handlerexploit.launcher_reloaded.AnimatedDrawer>
+</com.android.launcherex.AnimatedDrawer>

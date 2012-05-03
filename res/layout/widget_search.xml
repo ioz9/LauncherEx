@@ -14,9 +14,9 @@
      limitations under the License.
 -->
 
-<com.handlerexploit.launcher_reloaded.Search 
+<com.android.launcherex.Search 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:launcher="http://schemas.android.com/apk/res/com.handlerexploit.launcher_reloaded"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcherex"
     android:id="@+id/widget_search"  
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -58,4 +58,4 @@
 
     </LinearLayout>
 
-</com.handlerexploit.launcher_reloaded.Search>
+</com.android.launcherex.Search>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.handlerexploit.launcher_reloaded.AnimatedDrawer
+<com.android.launcherex.AnimatedDrawer
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:launcher="http://schemas.android.com/apk/res/com.handlerexploit.launcher_reloaded"
+	xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcherex"
 	android:id="@+id/delete_zone_relative" 
 	android:layout_width="wrap_content" 
 	android:layout_height="wrap_content" 
@@ -658,7 +658,7 @@
         
         <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
         
-            	<com.handlerexploit.launcher_reloaded.MiniApplication 
+            	<com.android.launcherex.MiniApplication 
             			android:layout_gravity="center" 
             			android:id="@+id/quick_shortcut_0" 
             			android:focusable="true" 
@@ -669,7 +669,7 @@
             			android:scaleType="center" 
             			android:layout_weight="1.0" />
             			
-            	<com.handlerexploit.launcher_reloaded.MiniApplication 
+            	<com.android.launcherex.MiniApplication 
             			android:layout_gravity="center" 
             			android:id="@+id/quick_shortcut_1" 
             			android:focusable="true" 
@@ -680,7 +680,7 @@
             			android:scaleType="center" 
             			android:layout_weight="1.0" />
             			
-            	<com.handlerexploit.launcher_reloaded.MiniApplication 
+            	<com.android.launcherex.MiniApplication 
             			android:layout_gravity="center" 
             			android:id="@+id/quick_shortcut_2" 
             			android:focusable="true" 
@@ -691,7 +691,7 @@
             			android:scaleType="center" 
             			android:layout_weight="1.0" />
             			
-            	<com.handlerexploit.launcher_reloaded.MiniApplication 
+            	<com.android.launcherex.MiniApplication 
             			android:layout_gravity="center" 
             			android:id="@+id/quick_shortcut_3" 
             			android:focusable="true" 
@@ -702,7 +702,7 @@
             			android:scaleType="center" 
             			android:layout_weight="1.0" />
             			
-            	<com.handlerexploit.launcher_reloaded.MiniApplication 
+            	<com.android.launcherex.MiniApplication 
             			android:layout_gravity="center" 
             			android:id="@+id/quick_shortcut_4" 
             			android:focusable="true" 
@@ -717,4 +717,4 @@
         
 </RelativeLayout>
 
-</com.handlerexploit.launcher_reloaded.AnimatedDrawer>
+</com.android.launcherex.AnimatedDrawer>

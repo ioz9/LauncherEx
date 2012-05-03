@@ -21,7 +21,7 @@
     <!-- General -->
     <skip />
     <!-- Application name -->
-    <string name="helauncher">HeLauncher</string>
+    <string name="launcher">Launcher</string>
     <!-- Default folder name -->
     <string name="folder_name">Folder</string>
     <!-- Title of dialog that appears after user selects Wallpaper from menu -->
@@ -33,7 +33,7 @@
     <!-- Displayed when user selects a shortcut for an app that was uninstalled -->
     <string name="activity_not_found">Application is not installed on your phone.</string>
     <!-- List item for configuring the current wallpaper -->
-    <string name="configure_wallpaper">Configure...</string>
+    <string name="configure_wallpaper">Configure&#8230;</string>
 
     <!-- Folders -->
     <skip />
@@ -99,7 +99,7 @@
     <!-- Noun, menu item used to show the system settings -->
     <string name="menu_settings">Settings</string>
     <!-- Noun, menu item used to show the custom dockbars -->
-    <string name="menu_customize" translatable="false">Customize</string>
+    <string name="menu_preferences">Customize</string>
 
     <!-- Permissions: -->
     <string name="permlab_install_shortcut">install shortcuts</string>
@@ -159,5 +159,7 @@
     <string name="preference_4_key" translatable="false">1OprmMIWtQ</string>
     <string name="preference_5">Enable screen bounce</string>
     <string name="preference_5_key" translatable="false">CalHW8GlsT</string>
+    <string name="preferences">Preferences</string>
+    <string name="about">About</string>
     
 </resources>

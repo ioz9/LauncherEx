@@ -1,33 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-	android:title="Preferences"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen android:title="@string/menu_preferences" xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+    	android:title="Launcher">
+                
+        <PreferenceScreen
+            android:title="Screen"
+            android:summary="Screen preferences"
+            android:key="preferencesScreen">
 
-    <CheckBoxPreference
-        android:title="@string/preference_1"
-        android:key="@string/preference_1_key"
-        android:defaultValue="false"
-        android:enabled="false" />
-        
-    <CheckBoxPreference
-        android:title="@string/preference_2"
-        android:key="@string/preference_2_key"
-        android:defaultValue="false"
-        android:enabled="false" />
-
-    <CheckBoxPreference
-        android:title="@string/preference_3"
-        android:key="@string/preference_3_key"
-        android:defaultValue="false" />
-        
-    <CheckBoxPreference
-        android:title="@string/preference_4"
-        android:key="@string/preference_4_key"
-        android:defaultValue="false" />
-        
-    <CheckBoxPreference
-        android:title="@string/preference_5"
-        android:key="@string/preference_5_key"
-        android:defaultValue="false" />
-
+	     	<CheckBoxPreference
+	        	android:title="@string/preference_1"
+	        	android:key="@string/preference_1_key"
+	        	android:defaultValue="false"
+	        	android:enabled="false" />
+	        
+	    	<CheckBoxPreference
+	        	android:title="@string/preference_2"
+	        	android:key="@string/preference_2_key"
+	        	android:defaultValue="false"
+	        	android:enabled="false" />
+	
+	    	<CheckBoxPreference
+	        	android:title="@string/preference_3"
+	        	android:key="@string/preference_3_key"
+	        	android:defaultValue="false" />
+	        
+	    	<CheckBoxPreference
+	        	android:title="@string/preference_4"
+	        	android:key="@string/preference_4_key"
+	        	android:defaultValue="false" />
+	        
+	    	<CheckBoxPreference
+	        	android:title="@string/preference_5"
+	        	android:key="@string/preference_5_key"
+	        	android:defaultValue="false" />
+    	</PreferenceScreen>
+        <Preference
+                android:title="Styles"
+                android:summary="Change the style of the launcher"
+                android:key="preferencesStyles" />
+        <Preference
+                android:title="About"
+                android:summary="About this launcher"
+                android:key="preferencesAbout" />
+        </PreferenceCategory>
 </PreferenceScreen>

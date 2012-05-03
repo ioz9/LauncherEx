@@ -16,10 +16,10 @@
 
 package org.adw.launcher;
 
-import com.handlerexploit.launcher_reloaded.ApplicationInfo;
-import com.handlerexploit.launcher_reloaded.DragController;
-import com.handlerexploit.launcher_reloaded.DragSource;
-import com.handlerexploit.launcher_reloaded.Launcher;
+import com.android.launcherex.ApplicationInfo;
+import com.android.launcherex.DragController;
+import com.android.launcherex.DragSource;
+import com.android.launcherex.Launcher;
 
 import android.content.Context;
 import android.graphics.Canvas;

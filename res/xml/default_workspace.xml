@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.handlerexploit.launcher_reloaded">
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcherex">
 
     <search
         launcher:screen="2"

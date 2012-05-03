@@ -14,9 +14,9 @@
      limitations under the License.
 -->
 
-<com.handlerexploit.launcher_reloaded.CellLayout
+<com.android.launcherex.CellLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:launcher="http://schemas.android.com/apk/res/com.handlerexploit.launcher_reloaded"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcherex"
 
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
